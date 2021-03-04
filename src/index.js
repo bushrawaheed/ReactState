@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import City from "./City";
 import FahrenheihtValue from "./FahrenheihtValue";
+import CelsiusValue from "./CelsiusValue";
 import "./App.css";
 
 function App() {
@@ -43,11 +44,11 @@ function App() {
           in imperial and when clicking °C, show the temperature in celsius.
         </p>
 
-        <City name="Lisbon" temperature={12} />
-        <City name="Berlin" temperature={23} />
-        <City name="Dallas" temperature={34} />
-        <City name="New York" temperature={-2} />
-        <City name="Milan" temperature={10} />
+        <CelsiusValue name="Lisbon" temperature={12} />
+        <CelsiusValue name="Berlin" temperature={23} />
+        <CelsiusValue name="Dallas" temperature={34} />
+        <CelsiusValue name="New York" temperature={-2} />
+        <CelsiusValue name="Milan" temperature={10} />
       </div>
     </div>
   );
